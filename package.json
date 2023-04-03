@@ -1,7 +1,7 @@
 {
     "name": "streamlitappheroku",
     "version": "1.0.0",
-    "description": "app.py",
+    "description": " ",
     "main": "app.py",
     "scripts": {
         "start": "app.py"
@@ -16,5 +16,7 @@
             "url": "https://github.com/PramodBandgar/streamlitappheroku/issues"
         },
         "homepage": "https://github.com/PramodBandgar/streamlitappheroku#readme",
-        "dependencies": {"express": "4.18.2"}
-    }
+        "dependencies":{
+            "express": "4.18.2"
+        }
+}
