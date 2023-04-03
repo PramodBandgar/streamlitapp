@@ -2,8 +2,9 @@
     "name": "streamlitappheroku",
     "version": "1.0.0",
     "description": "app.py",
+    "main": "app.py",
     "scripts": {
-        "start": "node app.py"
+        "start": "app.py"
         },
         "repository": {
             "type": "git",
