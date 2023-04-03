@@ -1,11 +1,11 @@
 {
     "name": "streamlitappheroku",
     "version": "1.0.0",
-    "description": "",
+    "description": "app.py",
     "scripts": {
         "build": "echo \"No build specified\" && exit 1",
         "test": "echo \"No test specified\" && exit 1",
-        "start": "node index.js"
+        "start": "node app.py"
         },
         "repository": {
             "type": "git",
@@ -16,5 +16,6 @@
         "bugs": {
             "url": "https://github.com/PramodBandgar/streamlitappheroku/issues"
         },
-        "homepage": "https://github.com/PramodBandgar/streamlitappheroku#readme"
+        "homepage": "https://github.com/PramodBandgar/streamlitappheroku#readme",
+        "dependencies": {"express": "4.18.2"}
     }
