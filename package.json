@@ -7,7 +7,7 @@
         "start": "app.py"
         },
         "repository": {
-            "type": "git",
+            "type": "module",
             "url": "git+https://github.com/PramodBandgar/streamlitappheroku.git"
         },
         "author": "",
