@@ -46,22 +46,22 @@ if (selected == 'Diabetes Prediction'):
          Glucose = st.number_input('Glucose Level', min_value=11, max_value=200, format='%d')
     
     with col1:
-         BloodPressure = st.number_input('Blood Pressure value', min_value=0, max_value=200, value_type='int')
+         BloodPressure = st.number_input('Blood Pressure value', min_value=0, max_value=200, format='%d')
 
     with col2:
-         SkinThickness = st.number_input('Skin Thickness value', min_value=0, max_value=100, value_type='int')
+         SkinThickness = st.number_input('Skin Thickness value', min_value=0, max_value=100, format='%d')
 
     with col3:
-         Insulin = st.number_input('Insulin Level', min_value=0, max_value=1000, value_type='int')
+         Insulin = st.number_input('Insulin Level', min_value=0, max_value=1000, format='%d'
 
     with col1:
-         BMI = st.number_input('BMI value', min_value=0, max_value=50, value_type='int')
+         BMI = st.number_input('BMI value', min_value=0, max_value=50, format='%d')
 
     with col2:
-         DiabetesPedigreeFunction = st.number_input('Diabetes Pedigree Function value', min_value=0, max_value=3, value_type='float')
+         DiabetesPedigreeFunction = st.number_input('Diabetes Pedigree Function value', min_value=0, max_value=3, format='%d')
 
     with col3:
-         Age = st.number_input('Age of the Person', min_value=1, max_value=120, value_type='int')
+         Age = st.number_input('Age of the Person', min_value=1, max_value=120, format='%d')
  
     # code for Prediction
     diab_diagnosis = ''
