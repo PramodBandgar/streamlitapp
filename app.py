@@ -56,10 +56,10 @@ if (selected == 'Diabetes Prediction'):
          Insulin = st.number_input('Insulin Level', min_value=0, max_value=1000, format='%d')
 
     with col1:
-         BMI = st.number_input('BMI value', min_value=0, max_value=50, format='%f')
+         BMI = st.number_input('BMI value', min_value=0, max_value=50, format='%i')
 
     with col2:
-         DiabetesPedigreeFunction = st.number_input('Diabetes Pedigree Function value', min_value=0, max_value=3, format='%f')
+         DiabetesPedigreeFunction = st.number_input('Diabetes Pedigree Function value', min_value=0, max_value=3, format='%i')
 
     with col3:
          Age = st.number_input('Age of the Person', min_value=1, max_value=120, format='%d')
