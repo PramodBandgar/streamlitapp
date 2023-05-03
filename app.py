@@ -37,8 +37,9 @@ if (selected == 'Diabetes Prediction'):
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        Sex = st.text_input('Sex')
-        
+         sex_options = ['Male', 'Female']
+         Sex = st.radio('Sex', sex_options)
+       
     with col2:
          Pregnancies = st.text_input('Number of Pregnancies')
             
@@ -52,7 +53,7 @@ if (selected == 'Diabetes Prediction'):
          SkinThickness = st.number_input('Skin Thickness value', min_value=0, max_value=100, format='%d')
 
     with col3:
-         Insulin = st.number_input('Insulin Level', min_value=0, max_value=1000, format='%d'
+         Insulin = st.number_input('Insulin Level', min_value=0, max_value=1000, format='%d')
 
     with col1:
          BMI = st.number_input('BMI value', min_value=0, max_value=50, format='%d')
