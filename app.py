@@ -43,7 +43,7 @@ if (selected == 'Diabetes Prediction'):
          Pregnancies = st.text_input('Number of Pregnancies')
             
     with col3:
-        Glucose = st.text_input('Glucose Level')
+    Glucose = st.number_input('Glucose Level', min_value=11.1, max_value=200, format='%.1f')
     
     with col1:
         BloodPressure = st.text_input('Blood Pressure value')
